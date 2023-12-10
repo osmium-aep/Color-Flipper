@@ -35,14 +35,4 @@ let colorFlip = ()=>{
     document.querySelector('.colorText').innerHTML = hex;
 }
 
-// setInterval(()=>{
-//     colorFlip()
-// },1000)
-
-addEventListener('click', (elem)=>{
-    if(elem.target.innerHTML === "Flip"){
-       colorFlip() 
-    }
-})
-
        
